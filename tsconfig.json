@@ -3,7 +3,6 @@
     "module": "CommonJS",
     "declaration": true,
     "sourceMap": true,
-    "rootDir": "./src",
     "strict": true,
     "outDir": "./dist",
     "noUnusedLocals": true,
@@ -12,10 +11,6 @@
     "noFallthroughCasesInSwitch": true,
     "downlevelIteration": true,
     "moduleResolution": "node",
-    "baseUrl": "./",
-    "paths": {
-      "*": ["src/*", "node_modules/*"]
-    },
     "jsx": "react",
     "esModuleInterop": true,
     "target": "ES2019",
@@ -24,7 +19,6 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "types": ["turnstile-types"]
   },
   "exclude": ["node_modules", "dist"]
 }

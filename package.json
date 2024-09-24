@@ -4,7 +4,7 @@
   "description": "React library for Cloudflare's Turnstile CAPTCHA alternative",
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "build": "tsc",
     "style-fix": "npx prettier -w ."
   },
